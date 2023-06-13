@@ -1,0 +1,25 @@
+      ul  { font-family: 'Secular One', sans-serif;;
+            list-style-type: none;
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            font-size: 1.2rem;
+            font-weight: 100;
+            padding: 20px;
+            width:100% ;
+            background-color: rgb(92, 86, 68);
+            color: aliceblue;
+            border-radius: 1.2rem;
+             &:hover{
+             border-radius: 0.9rem;
+             background-color: beige;
+             padding: 0.4rem;
+             color:rgb(88, 88, 87) ;
+
+             .inicio { text-decoration:none;    color: aliceblue;}
+            .laCasa { color: aliceblue; text-decoration: none;}
+            .ubicacion {text-decoration: none; color: aliceblue;}
+            .tarifas {color: aliceblue; text-decoration: none;}
+           .contacto { color: aliceblue; text-decoration: none;} 
+             }
+}
